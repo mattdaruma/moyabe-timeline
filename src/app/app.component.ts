@@ -1,8 +1,5 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { DatePipe } from '@angular/common';
-import { Component, ElementRef, HostListener, NgZone, ViewChild } from '@angular/core';
-import { BehaviorSubject, Observable, debounceTime, fromEvent } from 'rxjs';
-import { TimelineService } from './timeline/timeline.service';
+import { Component } from '@angular/core';
 
 const timeline = {
   "1688410666380": {

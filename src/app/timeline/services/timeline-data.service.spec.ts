@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TimelineService } from './timeline.service';
+import { TimelineDataService } from './timeline-data.service';
 
 describe('TimelineService', () => {
-  let service: TimelineService;
+  let service: TimelineDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(TimelineService);
+    service = TestBed.inject(TimelineDataService);
   });
 
   it('should be created', () => {

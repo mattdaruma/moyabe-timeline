@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DrawingService } from './drawing.service';
+import { TimelineDateService } from './timeline-date.service';
 
-describe('DrawingService', () => {
-  let service: DrawingService;
+describe('DateService', () => {
+  let service: TimelineDateService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DrawingService);
+    service = TestBed.inject(TimelineDateService);
   });
 
   it('should be created', () => {
